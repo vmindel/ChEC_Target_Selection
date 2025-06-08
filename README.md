@@ -12,4 +12,11 @@ Promoters were defined only for genes with an annotated transcript. The length o
 The data (gene-counts) was downloaded from the GEO,
 Reads were normalized to 1e6, and for each repsective sample log2(FC) was calculated as log2(DMSO+1) - log2(IAA+1).
 
+# External Data
 ### Identities of the genes for the GO pathways in figure C were extracted using gseapy python package https://gseapy.readthedocs.io/en/latest/gseapy_example.html
+
+### Data for the alpha-factor response was obtained from - https://pubmed.ncbi.nlm.nih.gov/10657304/
+
+### Data for the Environmental Stress Response was obtained from - https://pmc.ncbi.nlm.nih.gov/articles/PMC15070/
+
+### TF-pwms were obtained from cis-bp and one pwm per TF was used as listed in the data/tf_cisbp_mot_map.csv file

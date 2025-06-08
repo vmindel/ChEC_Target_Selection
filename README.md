@@ -12,3 +12,4 @@ Promoters were defined only for genes with an annotated transcript. The length o
 The data (gene-counts) was downloaded from the GEO,
 Reads were normalized to 1e6, and for each repsective sample log2(FC) was calculated as log2(DMSO+1) - log2(IAA+1).
 
+### Identities of the genes for the GO pathways in figure C were extracted using gseapy python package https://gseapy.readthedocs.io/en/latest/gseapy_example.html
